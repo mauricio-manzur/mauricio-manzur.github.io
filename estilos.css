@@ -1,3 +1,10 @@
+
+body{
+    font-family: 'Ubuntu Mono', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,8 +14,74 @@
 .headbanner{
 
     width: 100%;
-    height: 15vh;
+    height: 20vh;
+    background: linear-gradient(90deg,#bf094a, #d70a53);
     
 
+}
+
+.headbanner header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.headbanner .logo-imagen{
+    border: 4px solid black;
+    border-radius: 100px;
+    border-color: white;
+    width: 7%;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.headbanner .logo-imagen img{
+    width: 100%;
+    height: 100%;
+}
+
+.headbanner nav{
+    width: 100%;
+    height: 50px;
+    user-select: none;
+    background-color: white;
+
+}
+
+.headbanner nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+}
+
+.headbanner nav ul li{
+    padding: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: all 0.3s;
+    border-radius: 50px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.headbanner nav ul li:hover{
+    background-color: #D70A53;
+    color: white;
+    border-radius: 10px;
+    font-weight: 400;
+    
 }
 

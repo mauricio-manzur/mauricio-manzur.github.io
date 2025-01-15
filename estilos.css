@@ -3,7 +3,7 @@ body{
     font-family: 'Ubuntu Mono', serif;
     font-weight: 400;
     font-style: normal;
-    
+    user-select: none;
 }
 
 *{
@@ -70,7 +70,6 @@ a{
 
 
 .imagen-aspectos{
-    border: 2px solid black;
     width: 20%;
     height: 100%;
 }
@@ -140,7 +139,8 @@ hr{
 }
 
 .cuerpo .hoja-esqueleto{
-    border: 0.5px solid black;
+    margin-right: 20px;
+    transition: all 0.3s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,12 +150,6 @@ hr{
     width: 40%;
     background: url(images/hoja_imagen.png);
     opacity: 0.9;
-}
-
-.body-aspectos .hoja-esqueleto-aspect{
-    width: 100%;
-    border: 2px solid black;
-
 }
 
 .body-aspectos #alargamiento{
@@ -186,6 +180,24 @@ hr{
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 20px;
+}
+
+.cuerpo .hoja-esqueleto:hover{
+    box-shadow: 3px 3px 10px #bf094a;
+
+
+}
+
+#seguridad img{
+    border: 2px solid #bf094a;
+    margin-left: 10px;
+    border-radius: 60px;
+}
+
+#seguridad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cuerpo .imagenes-repre{

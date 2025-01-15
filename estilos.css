@@ -126,6 +126,25 @@ a{
     box-shadow: 2px 2px 2px black;
 }
 
+
+#no_border{
+    position: relative;
+    width: 50%;
+    border-radius: 0px;
+    border: none;
+
+}
+
+#short-list{
+    width: 90%;
+}
+
+#short-list li{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
 hr{
     border: 1px solid black;
 }

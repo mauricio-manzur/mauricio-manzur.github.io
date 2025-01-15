@@ -55,6 +55,38 @@ a{
     
 }
 
+.body-aspectos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    border: 2px solid black;
+
+    align-items: center;
+}
+
+
+
+.imagen-aspectos{
+    border: 2px solid black;
+    width: 20%;
+    height: 100%;
+}
+
+.imagen-aspectos img{
+    width: 100%;
+    height: 100%;
+}
+
+.lista-aspectos{
+    padding: 20px;
+    width: 70%;
+    text-align: left;
+    font-size: 20px;
+}
+
 .headbanner nav{
     width: 100%;
     height: 50px;
@@ -109,6 +141,10 @@ hr{
 
 .cuerpo .hoja-esqueleto{
     border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
     border-radius: 30px;
     height: 100%;
     width: 40%;
@@ -116,7 +152,31 @@ hr{
     opacity: 0.9;
 }
 
+.body-aspectos .hoja-esqueleto-aspect{
+    width: 100%;
+    border: 2px solid black;
+
+}
+
+.body-aspectos #alargamiento{
+    height: 450px;
+}
+
+.imagen-aspectos{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.imagen-aspectos img{
+    width: 30%;
+    height: 30%;
+
+}
+
 .cuerpo .hoja-esqueleto h1{
+    margin-top: 20px;
     border-bottom: 2px dotted black;
 }
 
